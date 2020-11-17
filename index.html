@@ -2,153 +2,209 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="main.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="main.css">
+
 </head>
 
 <body>
-    <div class="contentWrapper">
-        <header>
-            <!--navigation menu-->
-            <div class="navbar">
+  <div class="contentWrapper">
+    <header>
+      <!--navigation menu-->
+      <!--<div class="navbar">
                 <ul>
                     <li><a href="#About">About</a></li>
                     <li><a href="#Projects">Projects</a></li>
                     <li><a href="#Get In Touch">Get in Touch</a></li>
                 </ul>
-            </div>
-        </header>
-    </div>
+            </div>-->
+    </header>
 
-    <div class="jumbotron jumbotron-fluid">
-        <div class="container">
+    <button id="myBtn"><a href="#top" style="color: white">Back to Top</a></button>
+
+    <nav class="navbar navbar-expand-lg navbar-white">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#About">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Get In Touch">Get In Touch</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="name">
+      <div class="container-fluid">
+        <h1 class="display-6">Erica Terkhorn</h1>
+        <p class="lead5">Software Development Professional</p>
+      </div>
+    </div>
+  </div>
+
+
+  <!--<div class="jumbotron jumbotron-fluid">
+        <div class="container1">
           <h1 class="display-4">Erica Terkhorn</h1>
           <p class="lead">Software Development Professional</p>
         </div>
-      </div>
+    </div>-->
 
-      <div class="jumbotron2 jumbotron-fluid2">
-        <div class="container">
-          <section id= "About"></section>
-          <h1 class="display-5">About</h1>
-          <img src="assets/headshot.jpg" class="center" border="0">
-          <div class="lead2">With 20 years in the corporate world of sales and account management, I’m passionate about working with organizations and individuals to achieve their goals. I’ve often been on the customer side of developing websites and mobile applications for my company. During these projects, I always had interest in being a part of the development side - both project management and software development. I took the plunge this year and have started the goal of becoming a software developer. I’m incredibly excited to begin this new career path. More to come...
-            .</div>
-          <div class="resume">
-            <button type="resume"> <a href="assets/Erica Terkhorn_Resume.pdf"> Download Resume</a></button>
+  <!--<div class ="name">
+      <div class="container1">
+        <h1 class="display-4">Erica Terkhorn</h1>
+        <p class="lead">Software Development Professional</p>
+      </div>
+    </div>-->
+
+
+  <div class="jumbotron2 jumbotron-fluid2">
+    <div class="container">
+      <section id="About"></section>
+      <h1 class="display-5">About</h1>
+      <img src="assets/headshot.jpg" class="float-left">
+      <div class="lead2">With 20 years in the corporate world of sales and account management, I’m passionate about
+        working with organizations and individuals to achieve their goals. I’ve often been on the customer side of
+        developing websites and mobile applications for my company. During these projects, I always had interest in
+        being a part of the development side - both project management and software development. I took the plunge this
+        year and have started the goal of becoming a software developer. I’m incredibly excited to begin this new career
+        path. More to come...
+        </div>
+      <div class="resume">
+        <button id="resume1"> <a href="assets/Erica Terkhorn_Resume.pdf"> Download Resume</a></button>
+      </div>
+      <div id="Skills">
+        <img src="assets/Skills (3).png" style="width:100%;max-width:900px" class="center">
+    </div>
+  </div>
+
+  <!--<div class="jumbotron2 jumbotron-fluid2"> 
+    <div class="container1">
+    </div>
+    </div>
+  </div>-->
+
+  <div class="contentWrapper3">
+    <section class="mainsection">
+      <!--Portfolio intro-->
+      <section id="Portfolio"></section>
+      <h2 class="display-1">Portfolio</h2>
+      <!--Portfolio projects-->
+    </section>
+
+    <div class="container">
+      <h4 class="text center" ; padding-top=0px; class="container1"></h4>
+      <div class="card-deck">
+        <div class="card" >
+          <img src="assets/Winemarket.png" class="card-img" alt="winemarket">
+          <div class="card-body">
+            <!--<h5 class="card-title">Static Storefront</h5>-->
+            <a href="https://ericaterkhorn.github.io/StaticStoreFront/index.html" class="btn btn-primary">Static
+              Storefront</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="assets/turtle.png" class="card-img" alt="turtle">
+          <div class="card-body">
+            <!--<h5 class="card-title">Creature Project</h5>-->
+            <a href="https://codepen.io/ericaterkhorn/pen/PoNZQmR" class="btn btn-primary">Creature Project</a>
+          </div>
+        </div>
+
+        <div class="card" >
+          <img src="assets/software_badge_yellow1.png" class="card-img" alt="bizchallenge">
+          <div class="card-body">
+            <!--<h5 class="card-title">Gold Badge Project</h5>-->
+            <a href="https://github.com/ericaterkhorn/GoldBadgeChallenges" class="btn btn-primary">Gold Badge
+              Project</a>
           </div>
         </div>
       </div>
-
-    
-    <div class="contentWrapper3">
-        <section class="mainsection">
-            <!--Portfolio intro-->
-            <section id = "Projects"></section>
-            <h2>Projects</h2>
-            <!--Portfolio projects-->
-         </section> 
-         
-    <div class="container">   
-        <h4 class="text center"; padding-top=30px; class="container1"></h4>
-            <div class="card-deck">
-            <div class="card" style="width: rem;">
-            <img src="assets/Winemarket.png" class="card-img-top" alt="winemarket">
-            <div class="card-body">
-              <h5 class="card-title">Static Storefront</h5>
-              <a href="https://ericaterkhorn.github.io/StaticStoreFront/index.html" class="btn btn-primary">See project</a>
-            </div>
-          </div>
-
-          <div class="card" style="width: 40rem;">
-            <img src="assets/turtle.png" class="card-img-top" alt="turtle">
-            <div class="card-body">
-              <h5 class="card-title">Creature Project</h5>
-              <a href="https://codepen.io/ericaterkhorn/pen/PoNZQmR" class="btn btn-primary">See project</a>
-            </div>
-          </div>
-
-          <div class="card" style="width: 40rem;">
-            <img src="assets/comingsoon.jpg" class="card-img-top" alt="bizchallenge">
-            <div class="card-body">
-              <h5 class="card-title">Business Challenges</h5>
-              <a href="#" class="btn btn-primary">See project</a>
-            </div>
-          </div>
-        </div>
     </div>
 
-        <div class="container">   
-            <h4 class="text center"; padding-top=30px; class="container1"></h4>
-                <div class="card-deck">
-                <div class="card" style="width: 60rem;">
-                <img src="assets/software_badge_blue1.png" class="card-img-top" alt="winemarket">
-                <div class="card-body">
-                  <h5 class="card-title">Blue Badge</h5>
-                  <a href="#" class="btn btn-primary">See project</a>
-                </div>
-              </div>
-
-          <div class="card" style="width: 40rem;">
-            <img src="assets/software_badge_red1.png" class="card-img-top" alt="redbadge">
-            <div class="card-body">
-              <h5 class="card-title">Red Badge</h5>
-              <a href="#" class="btn btn-primary">See project</a>
-            </div>
+    <div class="container">
+      <h4 class="text center" ; padding-top=0px; class="container1"></h4>
+      <div class="card-deck">
+        <div class="card" >
+          <img src="assets/software_badge_blue1.png" class="card-img" alt="blue badge">
+          <div class="card-body">
+            <!--<h5 class="card-title">Blue Badge Project</h5>-->
+            <a href="#" class="btn btn-primary">Blue Badge Project</a>
           </div>
-
-          <div class="card" style="width: 40rem;">
-            <img src="assets/comingsoon3.jpg" class="card-img-top" alt="Misc">
-            <div class="card-body">
-              <h5 class="card-title">Misc</h5>
-              <a href="#" class="btn btn-primary">See project</a>
-            </div>
-          </div>
-
         </div>
-    </div>       
+
+        <div class="card" >
+          <img src="assets/software_badge_red1.png" class="card-img" alt="redbadge">
+          <div class="card-body">
+            <!--<h5 class="card-title">Red Badge Project</h5>-->
+            <a href="#" class="btn btn-primary">Red Badge Project</a>
+          </div>
+        </div>
+
+        <div class="card" >
+          <img src="assets/comingsoon3.jpg" class="card-img" alt="Misc">
+          <div class="card-body">
+            <!--<h5 class="card-title">Misc</h5>-->
+            <a href="#" class="btn btn-primary">Coming Soon</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
 
     <div class="contentWrapper4">
-        <section class="contactsection">
-          <section id = "Get In Touch"></section>
-            <h3>Get In Touch</h3>
-            <p>I'd love to connect with you. Please reach out below!</p>
-        </section>
-        <div class = "form">
-                <form action="https://formspree.io/xgepekjv" method="POST">
-                    <label>
-                    Your name:
-                    <input type="name">
-                    </label>
-                    <label>
-                        Your email address:
-                        <input type="text" name="_replyto">
-                    </label>
-                    <label>
-                        Your message:
-                        <textarea name="message"></textarea>
-                    </label>
+      <section class="contactsection">
+        <section id="Get In Touch"></section>
+        <h3>Get In Touch</h3>
+        <p>I'd love to connect with you. Please reach out below!</p>
+      </section>
+      <div class="form">
+        <form action="https://formspree.io/xgepekjv" method="POST">
+          <label>
+            Your name:
+            <input type="name">
+          </label>
+          <label>
+            Your email address:
+            <input type="text" name="_replyto">
+          </label>
+          <label>
+            Your message:
+            <textarea name="message"></textarea>
+          </label>
 
-                    <button type="submit">Send</button>
-                </form>
-        </div>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+      
+
     </div>
 
-  
+
     <footer>
-        <div class="footerwrapper">
-            <!--Social links-->
-            <ul>
-                <li><a href="https://github.com/ericaterkhorn"><img src="assets/github.png" alt="Github" border="0"
-                            class="socialIcon" /></a></li>
-                <li><a href="https://www.linkedin.com/in/erica-terkhorn-018a6414/"></a><img src="assets/linkedin.png"
-                        alt="LinkedIn" border="0" class="socialIcon" /></a></li>
-            </ul>
-        </div>
+      <div class="footerwrapper">
+        <!--Social links-->
+        <ul>
+          <li><a href="https://github.com/ericaterkhorn"><img src="assets/github.png" alt="Github" border="0"
+                class="socialIcon" /></a></li>
+          <li><a href="https://www.linkedin.com/in/erica-terkhorn-018a6414/"></a><img src="assets/linkedin.png"
+              alt="LinkedIn" border="0" class="socialIcon" /></a></li>
+        </ul>
+      </div>
     </footer>
 
 
