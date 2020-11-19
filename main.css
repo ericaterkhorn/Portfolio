@@ -1,6 +1,6 @@
 /*Common elements*/
 body{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
     /*background-image: url(assets/pexels-rovenimagescom-949587.jpg);*/
     
     /*background-attachment: fixed;*/
@@ -109,16 +109,16 @@ body{
 .display-5{
     color: #0A6276;
     text-align: center;
-    font-size: 70px;
+    font-size: 90px;
 }
 
 .lead2{
-    color: #0A6276;
+    color: black;
     font-size: 20px;
 }
 
 .display-1{
-    font-size: 70px;
+    font-size: 90px;
 }
 
 img{
@@ -138,6 +138,7 @@ img{
 
 #resume1{
     border-radius: 10px;
+    background-color:  #b30059;
 }
 
 .resume a:hover{
@@ -172,8 +173,6 @@ h2{
 }
 
 .card{
-    height: 75%;
-    width: 75%;
     text-align: center;
     border-color: white;
 }
@@ -181,12 +180,13 @@ h2{
 
 
 .card-img{
-    object-fit: contain;
+    object-fit: cover;
     height: 25vh;
+    width: auto;
     padding-right: 7px;
     padding-left: 4px;
     margin-right: -2px;
-    width: auto;
+   
 }
 
 
@@ -200,7 +200,7 @@ h2{
     top: 85%;
     width: 80%;
     transform: translate(-50%, -50%);
-    background-color:gray;
+    background-color:#0A6276;
     color: white;
     font-size: 16px;
     border: none;
@@ -234,7 +234,7 @@ p{
 }
 h3{
     color: #0A6276;
-    font-size: 60px;
+    font-size: 80px;
     padding-top: 100px;
     
 }
