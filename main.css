@@ -133,7 +133,8 @@ img{
     font-size: 25px;
     text-align: center;
     padding-top: 30px;
-    
+    display: inline-block;
+    z-index: 1;
 }
 
 #resume1{
