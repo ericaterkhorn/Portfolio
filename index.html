@@ -13,21 +13,27 @@
 </head>
 
 <body>
-  <div class="contentWrapper">
-    <header>
-      <!--navigation menu-->
-      <!--<div class="navbar">
-                <ul>
-                    <li><a href="#About">About</a></li>
-                    <li><a href="#Projects">Projects</a></li>
-                    <li><a href="#Get In Touch">Get in Touch</a></li>
-                </ul>
-            </div>-->
-    </header>
+  
 
     <button id="myBtn"><a href="#top" style="color: white">Back to Top</a></button>
 
-    <nav class="navbar navbar-expand-lg navbar-white">
+    <nav class="navbar navbar-expand-lg">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#About">About <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#Portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#Get In Touch">Get In Touch</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  
+    <!--<nav class="navbar navbar-expand-lg navbar-white">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -45,36 +51,22 @@
           </li>
         </ul>
       </div>
-    </nav>
-
+    </nav>-->
+    
+  
+  <div class="jumbotron jumbotron-fluid">
     <div class="name">
       <div class="container-fluid">
-        <h1 class="display-6">Erica Terkhorn</h1>
-        <p class="lead5">Software Development Professional</p>
       </div>
     </div>
   </div>
 
-
-  <!--<div class="jumbotron jumbotron-fluid">
-        <div class="container1">
-          <h1 class="display-4">Erica Terkhorn</h1>
-          <p class="lead">Software Development Professional</p>
-        </div>
-    </div>-->
-
-  <!--<div class ="name">
-      <div class="container1">
-        <h1 class="display-4">Erica Terkhorn</h1>
-        <p class="lead">Software Development Professional</p>
-      </div>
-    </div>-->
-
-
+        
   <div class="jumbotron2 jumbotron-fluid2">
     <div class="container">
+      <img src="assets/about me.png" class="center" style="width: 100%; max-width: 2000px">
       <section id="About"></section>
-      <h1 class="display-5">About</h1>
+      <h1 class="display-5">About Me</h1>
       <img src="assets/headshot.jpg" class="float-left">
       <div class="lead2">With 20 years in the corporate world of sales and account management, I’m passionate about
         working with organizations and individuals to achieve their goals. I’ve often been on the customer side of
@@ -84,25 +76,26 @@
         path. More to come...
         </div>
       <div class="resume">
+        <p>For more information on my professional career, please download my resume.</p>
         <button id="resume1"> <a href="assets/Erica Terkhorn_Resume.pdf" target="_blank">Download Resume</a></button>
       </div>
-      <div id="Skills">
-        <img src="assets/Skills (3).png" style="width:100%;max-width:900px" class="center">
     </div>
   </div>
 
-  <!--<div class="jumbotron2 jumbotron-fluid2"> 
-    <div class="container1">
+  <div class="jumbotron3 jumbotron-fluid">
+    <div class="container">
+      <section id="Skills"></section>
+      <h1 class="display-5">My Skillset</h1>
+      <div id="Skills">
+        <img src="assets/skills (5).png" style="width:100%; max-width:1200px" class="center">
+      </div>
     </div>
-    </div>
-  </div>-->
+  </div>
 
-  <div class="contentWrapper3">
+  <!--<div class="contentWrapper3">
     <section class="mainsection">
-      <!--Portfolio intro-->
       <section id="Portfolio"></section>
       <h2 class="display-1">Portfolio</h2>
-      <!--Portfolio projects-->
     </section>
 
     <div class="container">
@@ -111,7 +104,7 @@
         <div class="card" >
           <img src="assets/Winemarket.png" class="card-img" alt="winemarket">
           <div class="card-body">
-            <!--<h5 class="card-title">Static Storefront</h5>-->
+         
             <a href="https://ericaterkhorn.github.io/StaticStoreFront/index.html" class="btn btn-primary" target="_blank">Static
               Storefront</a>
           </div>
@@ -120,7 +113,7 @@
         <div class="card">
           <img src="assets/turtle.png" class="card-img" alt="turtle">
           <div class="card-body">
-            <!--<h5 class="card-title">Creature Project</h5>-->
+           
             <a href="https://codepen.io/ericaterkhorn/pen/PoNZQmR" class="btn btn-primary" target="_blank">Creature Project</a>
           </div>
         </div>
@@ -128,7 +121,7 @@
         <div class="card" >
           <img src="assets/software_badge_yellow1.png" class="card-img" alt="bizchallenge">
           <div class="card-body">
-            <!--<h5 class="card-title">Gold Badge Project</h5>-->
+            
             <a href="https://github.com/ericaterkhorn/GoldBadgeChallenges" class="btn btn-primary"  target="_blank">Gold Badge
               Project</a>
           </div>
@@ -142,7 +135,7 @@
         <div class="card" >
           <img src="assets/accio-veggialis-cover.png" class="card-img" alt="blue badge">
           <div class="card-body">
-            <!--<h5 class="card-title">Blue Badge Project</h5>-->
+           
             <a href="https://github.com/jessetsmith/AccioVeggialis.git" class="btn btn-primary" target="_blank">Blue Badge Project</a>
           </div>
         </div>
@@ -150,7 +143,7 @@
         <div class="card" >
           <img src="assets/software_badge_red1.png" class="card-img" alt="redbadge">
           <div class="card-body">
-            <!--<h5 class="card-title">Red Badge Project</h5>-->
+            
             <a href="#" class="btn btn-primary">Red Badge Project</a>
           </div>
         </div>
@@ -158,13 +151,166 @@
         <div class="card" >
           <img src="assets/comingsoon3.jpg" class="card-img" alt="Misc">
           <div class="card-body">
-            <!--<h5 class="card-title">Misc</h5>-->
+            
             <a href="#" class="btn btn-primary">Coming Soon</a>
           </div>
         </div>
 
       </div>
+  </div>-->
+
+    <!--<div class="container my-5">-->
+      <div class="jumbotron4 jumbotron-fluid">
+      <!-- Section -->
+      <section>
+
+        <h3>Portfolio</h3>
+        <hr class="w-header my-4">
+        
+        <!--First row-->
+        <div class="row">
+
+        </div>
+        <!--First row-->
+    
+        <!--Tab panels-->
+        <div class="tab-content mb-5">
+    
+          <!--Panel 1-->
+          <div class="tab-pane fade show in active" id="panel31" role="tabpanel">
+    
+            <!-- Grid row -->
+            <div class="row">
+    
+              <!-- Grid column -->
+              <div class="col-md-12 col-lg-4">
+    
+                <!-- Card -->
+                <a class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal">
+    
+                  <!-- Card image -->
+                  <img class="card-img-top" src="assets/Winemarket.png" alt="Card image cap">
+    
+                  <!-- Card content -->
+                  <div class="card-body">
+    
+                    <h5 class="my-3">Static Storefront</h5>
+    
+                  </div>
+    
+                </a>
+                <!-- Card -->
+    
+                <!-- Card -->
+                <a class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal">
+    
+                  <!-- Card image -->
+                  <img class="card-img-top" src="assets/accio-veggialis-cover.png" alt="Card image cap">
+    
+                  <!-- Card content -->
+                  <div class="card-body">
+    
+                    <h5 class="my-3">Blue Badge Project</h5>
+    
+                  </div>
+    
+                </a>
+                <!-- Card -->
+    
+              </div>
+              <!-- Grid column -->
+    
+              <!-- Grid column -->
+              <div class="col-md-6 col-lg-4">
+    
+                <!-- Card -->
+                <a class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal">
+    
+                  <!-- Card image -->
+                  <img class="card-img-top" src="assets/turtle.png" alt="Card image cap">
+    
+                  <!-- Card content -->
+                  <div class="card-body">
+    
+                    <h5 class="my-3">Creature Project</h5>
+                    <!--<p class="card-text text-uppercase mb-3">Book</p>-->
+    
+                  </div>
+    
+                </a>
+                <!-- Card -->
+    
+                <!-- Card -->
+                <a class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal">
+    
+                  <!-- Card image -->
+                  <img class="card-img-top" src="assets/software_badge_red1.png" alt="Card image cap">
+    
+                  <!-- Card content -->
+                  <div class="card-body">
+    
+                    <h5 class="my-3">Red Badge Project</h5>
+      
+                  </div>
+    
+                </a>
+                <!-- Card -->
+    
+              </div>
+              <!-- Grid column -->
+    
+              <!-- Grid column -->
+              <div class="col-md-6 col-lg-4">
+    
+                <!-- Card -->
+                <a class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal">
+    
+                  <!-- Card image -->
+                  <img class="card-img-top" src="assets/software_badge_yellow1.png" alt="Card image cap">
+    
+                  <!-- Card content -->
+                  <div class="card-body">
+    
+                    <h5 class="my-3">Gold Badge Project</h5>
+                    
+                  </div>
+    
+                </a>
+                <!-- Card -->
+    
+                <!-- Card -->
+                <a class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal">
+    
+                  <!-- Card image -->
+                  <img class="card-img-top" src="assets/comingsoon.jpg" alt="Card image cap">
+    
+                  <!-- Card content -->
+                  <div class="card-body">
+    
+                    <h5 class="my-3">Coming Soon</h5>
+                    
+                  </div>
+    
+                </a>
+                <!-- Card -->
+    
+              </div>
+              <!-- Grid column -->
+    
+            </div>
+            <!-- Grid row -->
+    
+          </div>
+          <!--Panel 1-->
+
+    
+        </div>
+        <!--Tab panels-->
+    
+      </section>
+      <!-- Section -->
     </div>
+    <!--</div>-->
 
     <div class="contentWrapper4">
       <section class="contactsection">
@@ -195,17 +341,27 @@
     </div>
 
 
-    <footer>
-      <div class="footerwrapper">
-        <!--Social links-->
+   
+
+
+    <!-- Footer Elements -->
+  <footer>
+    <div class="jumbotron2 jumbotron-fluid4">
+      <div class="footer">
         <ul>
           <li><a href="https://github.com/ericaterkhorn"><img src="assets/github.png" alt="Github" border="0"
-                class="socialIcon" /></a></li>
+              class="socialIcon" /></a></li>
           <li><a href="https://www.linkedin.com/in/erica-terkhorn-018a6414/"><img src="assets/linkedin.png"
-              alt="LinkedIn" border="0" class="socialIcon" /></a></li>
+            alt="LinkedIn" border="0" class="socialIcon" /></a></li>
         </ul>
-      </div>
-    </footer>
+     </div>
+    </div>
+    
+  
+  </footer>
+  <!-- Footer -->
+ 
+  
 
 
 </body>
