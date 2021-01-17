@@ -51,13 +51,13 @@ body{
 /*about*/
 .jumbotron2{
     padding-top: 75px;
-    padding-bottom: 75px;
+    padding-bottom: 25px;
 }
 
 
 .display-5{
     color: #0A6276;
-    text-align: left;
+    text-align: center;
     font-size: 80px;
 }
 
@@ -78,14 +78,13 @@ img{
     font-size: 25px;
     text-align: center;
     padding-top: 30px;
-    padding-bottom: 20px;
-    display: inline-block;
     z-index: 1;
 }
 
 #resume1{
     border-radius: 0px;
     background-color:  #808080;
+    display: inline;
 }
 
 .resume a:link{
@@ -110,7 +109,7 @@ h2{
     color: #0A6276;
     font-size: 70px;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 25px;
     padding-bottom: 0px;
 }
 
@@ -141,12 +140,6 @@ h2{
 
 }
 
-
-/*.container{
-    position: relative;
-    
-}*/
-
 .container .btn{
     position: absolute;
     top: 85%;
@@ -174,6 +167,9 @@ h2{
 }
 /*contact section*/
 
+.my-3
+    padding-top: -10px;
+}
 p{
     color: black;
     font-size: 20px;
@@ -188,11 +184,12 @@ h3{
     color: #0A6276;
     font-size: 80px;
     padding-top: 50px;
+    text-align: center;
     
 }
 p{
     color: 3E81A9;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 label{
