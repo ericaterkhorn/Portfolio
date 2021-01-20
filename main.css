@@ -45,7 +45,7 @@ body{
     background-position: center;
     display: center;
     /*background-image: url(assets/billy-huynh-W8KTS-mhFUE-unsplash.jpg);*/
-    background-image: url(assets/Erica\ Terkhorn.png)
+    background-image: url(assets/Erica\ Terkhorn\ \(1\).png)
 }
 
 /*about*/
@@ -125,22 +125,18 @@ h2{
 
 .card-img{
     object-fit: cover;
-    height: 25vh;
     width: auto;
-    padding-right: 7px;
+    /* padding-right: 7px;
     padding-left: 4px;
-    margin-right: -2px;
+    margin-right: -2px; */
    
 }
 
 .card-img-top{
     object-fit: cover;
-    height: 25vh;
-    width: auto;
-
 }
 
-.container .btn{
+/* .container .btn{
     position: absolute;
     top: 85%;
     width: 80%;
@@ -151,7 +147,7 @@ h2{
     border: none;
     cursor: pointer;
     border-radius: 5px;
-}
+} */
 /*.card-title{
     position: absolute;
     top: 110%;
@@ -162,14 +158,19 @@ h2{
     cursor: pointer;
 }  */
 
-.card-deck{
-    padding-bottom: 15x;
+.card-body{
+    text-align: center;
 }
+
+
+/* .card-deck{
+    padding-bottom: 15x;
+} */
 /*contact section*/
 
-.my-3
+/* .my-3
     padding-top: -10px;
-}
+} */
 p{
     color: black;
     font-size: 20px;
@@ -261,14 +262,14 @@ footer li{
  #myBtn {
     position: fixed;
     bottom: 10px;
-    float: right;
+    float: center;
     right: 18.5%;
     left: 92%;
     max-width: 60px;
     width: 100%;
     font-size: 12px;
     border-color: rgba(85, 85, 85, 0.2);
-    background-color: #b30059;
+    background-color: #DE785F;
     padding: .5px;
     border-radius: 4px;
     z-index: 1;

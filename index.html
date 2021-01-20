@@ -18,7 +18,8 @@
     <button id="myBtn"><a href="#top" style="color: white">Back to Top</a></button>
 
     <nav class="navbar navbar-expand-lg">
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <a class="navbar-brand"></a>
+      <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent"> -->
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
             <a class="nav-link" href="#About">About <span class="sr-only">(current)</span></a>
@@ -30,6 +31,9 @@
             <a class="nav-link" href="#Get In Touch">Get In Touch</a>
           </li>
         </ul>
+        <a href="javascript: void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
       </div>
     </nav>
   
@@ -64,9 +68,10 @@
         
   <div class="jumbotron2 jumbotron-fluid2">
     <div class="container">
-      <img src="assets/about me.png" class="center" style="width: 100%; max-width: 2000px">
+      <!--<img src="assets/about me.png" class="center" style="width: 100%; max-width: 1500px">-->
       <section id="About"></section>
       <h1 class="display-5">About Me</h1>
+      <hr class="w-header my-4">
       <img src="assets/headshot.jpg" class="float-left">
       <div class="lead2">With 20 years in the corporate world of sales and account management, I’m passionate about
         working with organizations and individuals to achieve their goals. I’ve often been on the customer side of
@@ -74,9 +79,11 @@
         being a part of the development side - both project management and software development. I took the plunge this
         year and have started the goal of becoming a software developer. I’m incredibly excited to begin this new career
         path. More to come...
-
-        <img src="assets/skills (5).png" style="width:50%; max-width:600px" class="right">
-        </div>
+        <b></b>
+        <b></b>
+        <img src="assets/skills (6).png" style="width:50%; max-width:600px" class="right">
+        <b></b>
+      </div>
       <div class="resume">
         <p>For more information on my professional career, please download my resume.</p>
         <button id="resume1"> <a href="assets/Erica Terkhorn_Resume.pdf" target="_blank">Download Resume</a></button>
@@ -85,17 +92,8 @@
     </div>
   </div>
 
-  <!-- <div class="jumbotron3 jumbotron-fluid">
-    <div class="container">
-      <section id="Skills"></section>
-      <h1 class="display-5">My Skillset</h1>
-      <div id="Skills">
-        <img src="assets/skills (5).png" style="width:100%; max-width:1200px" class="center">
-      </div>
-    </div>
-  </div> -->
 
-  <!--<div class="contentWrapper3">
+  <!-- <div class="contentWrapper3">
     <section class="mainsection">
       <section id="Portfolio"></section>
       <h2 class="display-1">Portfolio</h2>
@@ -160,7 +158,7 @@
         </div>
 
       </div>
-  </div>-->
+  </div> -->
 
     <!--<div class="container my-5">-->
       <div class="jumbotron4 jumbotron-fluid">
@@ -169,120 +167,85 @@
 
         <h3>Portfolio</h3>
         <hr class="w-header my-4">
-        
-        <!--First row-->
-        <div class="row">
-
-        </div>
-        <!--First row-->
     
         <!--Tab panels-->
         <div class="tab-content mb-5">
-
             <!-- Grid row -->
             <div class="row">
     
               <!-- Grid column -->
               <div class="col-md-12 col-lg-4">
     
-                <!-- Card -->
-                <a class="card hoverable mb-4">
-    
+ 
                   <!-- Card image -->
-                  <img class="card-img-top" src="assets/Winemarket.png" alt="Card image cap">
+                  <img class="card-img-top" src="assets/Winemarket.png" style="height:30vh" alt="Card image cap">
     
                   <!-- Card content -->
                   <div class="card-body">
-    
-                    <h5 class="my-6">Static Storefront</h5>
-    
+                    <h5 class="my-6">
+                    <a href="https://ericaterkhorn.github.io/StaticStoreFront/index.html" target="_blank">Static Storefront</a>
+                    </h5>
                   </div>
-    
-                </a>
-                <!-- Card -->
-    
-                <!-- Card -->
-                <a class="card hoverable mb-4">
+              
     
                   <!-- Card image -->
-                  <img class="card-img-top" src="assets/accio-veggialis-cover.png" alt="Card image cap">
+                  <img class="card-img-top" src="assets/accio-veggialis-cover.png" style="height:30vh" alt="Card image cap">
     
                   <!-- Card content -->
                   <div class="card-body">
-    
-                    <h5 class="my-6">Blue Badge Project</h5>
-    
+                    <h5 class="my-6">
+                      <a href="https://github.com/jessetsmith/AccioVeggialis.git" target="_blank">Team Web API Project</a>
+                    </h5>
                   </div>
-    
-                </a>
-                <!-- Card -->
-    
+  
               </div>
-              <!-- Grid column -->
-    
-              <!-- Grid column -->
-              <div class="col-md-6 col-lg-4">
-    
-                <!-- Card -->
-                <a class="card hoverable mb-4">
+
+              <div class="col-md-12 col-lg-4">
     
                   <!-- Card image -->
-                  <img class="card-img-top" src="assets/turtle.png" alt="Card image cap">
+                  <img class="card-img-top" src="assets/turtle.png" style="height:30vh" alt="Card image cap">
     
                   <!-- Card content -->
                   <div class="card-body">
     
-                    <h5 class="my-6">Creature Project</h5>
-                    <!--<p class="card-text text-uppercase mb-3">Book</p>-->
+                    <h5 class="my-6">
+                      <a href="https://codepen.io/ericaterkhorn/pen/PoNZQmR" target="_blank">Creature Project</a>
+                    </h5>
     
                   </div>
     
-                </a>
-                <!-- Card -->
-    
-                <!-- Card -->
-                <a class="card hoverable mb-4">
-    
                   <!-- Card image -->
-                  <img class="card-img-top" src="assets/software_badge_red1.png" alt="Card image cap">
+                  <img class="card-img-top" src="assets/Black and White Photo True Crime & Investigative Journalism Podcast Cover.png" style="height:30vh" alt="Card image cap">
     
                   <!-- Card content -->
                   <div class="card-body">
     
-                    <h5 class="my-6">Red Badge Project</h5>
+                    <h5 class="my-6">
+                      <a href="" target="_blank">.NET Framework MVC 5 Web Application</a>
+                    </h5>
       
                   </div>
     
-                </a>
-                <!-- Card -->
-    
               </div>
-              <!-- Grid column -->
-    
-              <!-- Grid column -->
-              <div class="col-md-6 col-lg-4">
-    
-                <!-- Card -->
-                <a class="card hoverable mb-4">
+
+              <div class="col-md-12 col-lg-4">
+
     
                   <!-- Card image -->
-                  <img class="card-img-top" src="assets/software_badge_yellow1.png" alt="Card image cap">
+                  <img class="card-img-top" src="assets/software_badge_yellow1.png" style="height:30vh" alt="Card image cap">
     
                   <!-- Card content -->
                   <div class="card-body">
     
-                    <h5 class="my-6">Gold Badge Project</h5>
+                    <h5 class="my-6">
+                      <a href="https://github.com/ericaterkhorn/GoldBadgeChallenges" target="_blank">Business Challenges</a>
+                    </h5>
                     
                   </div>
-    
-                </a>
-                <!-- Card -->
-    
-                <!-- Card -->
-                <a class="card hoverable mb-4">
+
     
                   <!-- Card image -->
-                  <img class="card-img-top" src="assets/comingsoon.jpg" alt="Card image cap">
+                  <img class="card-img-top" src="assets/comingsoon.jpg" style="height:30vh" alt="Card image cap">
     
                   <!-- Card content -->
                   <div class="card-body">
@@ -290,9 +253,6 @@
                     <h5 class="my-6">Coming Soon</h5>
                     
                   </div>
-    
-                </a>
-                <!-- Card -->
     
               </div>
               <!-- Grid column -->
@@ -303,7 +263,6 @@
           </div>
           <!--Panel 1-->
 
-    
         </div>
         <!--Tab panels-->
     
