@@ -1,9 +1,6 @@
 /*Common elements*/
 body{
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-    /*background-image: url(assets/pexels-rovenimagescom-949587.jpg);*/
-    
-    /*background-attachment: fixed;*/
     background-color: white;
     margin: auto;
 }
@@ -15,7 +12,7 @@ body{
     padding-right: 10px;
     vertical-align: center;
     font-size: 25px;
-    color: #0A6276;
+    color: white;
 }
 
 .navbar-nav{
@@ -23,7 +20,7 @@ body{
 }
 
 .navbar a:visited{
-    color: #0A6276;
+    color: white;
 }
 
 .navbar a:hover{
@@ -37,15 +34,15 @@ body{
 }
 
 .container-fluid{
-    height: 75vh;
+    height: 70vh;
     width: auto;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: absolute;
     background-position: center;
     display: center;
     /*background-image: url(assets/billy-huynh-W8KTS-mhFUE-unsplash.jpg);*/
-    background-image: url(assets/Erica\ Terkhorn\ \(1\).png)
+    background-image: url(assets/updatedbanner.png);
 }
 
 /*about*/
@@ -71,7 +68,7 @@ img{
     width: 40%;
     height: 40%;
     padding-right: 4%;
-    border-radius: 0px;   
+
 }
 
 .resume{
@@ -122,55 +119,23 @@ h2{
     border-color: white;
 }
 
-
 .card-img{
     object-fit: cover;
     width: auto;
-    /* padding-right: 7px;
-    padding-left: 4px;
-    margin-right: -2px; */
-   
 }
 
 .card-img-top{
     object-fit: cover;
 }
 
-/* .container .btn{
-    position: absolute;
-    top: 85%;
-    width: 80%;
-    transform: translate(-50%, -50%);
-    background-color:#0A6276;
-    color: white;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-} */
-/*.card-title{
-    position: absolute;
-    top: 110%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 20px;
-    cursor: pointer;
-}  */
+.my-6{
+    color: #0A6276;
+}
 
 .card-body{
     text-align: center;
 }
 
-
-/* .card-deck{
-    padding-bottom: 15x;
-} */
-/*contact section*/
-
-/* .my-3
-    padding-top: -10px;
-} */
 p{
     color: black;
     font-size: 20px;
@@ -201,7 +166,7 @@ label{
 
 .form{
     padding-bottom: 20px;
-    width: 500px;
+    width: 750px;
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
@@ -209,11 +174,11 @@ label{
 }
 
 input{
-    width: 500px;
+    width: 750px;
 }
 
 textarea{
-    width: 500px;
+    width: 750px;
     height: 175px;
 }
 
@@ -228,9 +193,6 @@ button{
     border-radius: 10px;
 }
 
-/*top of page button*/
-
-  
 /*Footer*/
 footer img{
     height: 90px;
@@ -257,24 +219,21 @@ footer li{
     height: 100px;
  }
 
-
- 
-.myBtn {
-    display: none; /* Hidden by default */
-    position: fixed; /* Fixed/sticky position */
-    bottom: 20px; /* Place the button at the bottom of the page */
-    right: 30px; /* Place the button 30px from the right */
-    z-index: 99; /* Make sure it does not overlap */
-    border: none; /* Remove borders */
-    outline: none; /* Remove outline */
-    background-color: red; /* Set a background color */
-    color: white; /* Text color */
-    cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 15px; /* Some padding */
-    border-radius: 10px; /* Rounded corners */
-    font-size: 18px; /* Increase font size */
-} 
-  /*On Hover Color Change*/
+ #myBtn {
+    position: fixed; 
+    bottom: 15px; 
+    right: 65px; 
+    z-index: 1; 
+    border:solid;
+    outline: 2px; 
+    border-color: gray;
+    background-color: #f4592f; 
+    color: white; 
+    cursor: pointer;
+    padding: 15px; 
+    border-radius: 10px; 
+    font-size: 15px; 
+}  
 
 #myBtn:hover {
     background-color: #555; /* Add a dark-grey background on hover */
